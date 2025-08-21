@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import React from 'react';
 import Social from '@/components/Social';
-import { Github, Mail, Linkedin, Globe, ArrowUpRight } from 'lucide-react'
+import { Github, Mail, Linkedin, Globe } from 'lucide-react'
 import ExperienceCard from '@/components/ExperienceCard';
 import ProjectCard from '@/components/ProjectCard';
 import SkillTag from '@/components/SkillTag';
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
                     </div>
 
                     <h2 className="text-xl mt-12 mb-2">about</h2>
-                    <p className="text-sm text-zinc-400 font-light">i'm a full stack developer pursuing a BS in computer science @ cal poly pomona. 
+                    <p className="text-sm text-zinc-400 font-light">i&apos;m a full stack developer pursuing a BS in computer science @ cal poly pomona. 
                         i enjoy designing responsive front end webapps w/ react & typescript.
                         i love cats, hiking, and exploring new technologies.
                     </p>

@@ -8,10 +8,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <ThemeProvider attribute="class">
             <Head>
                 <title>kenneth chau</title>
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
-                    rel="stylesheet">
-                </link>
             </Head>
             <div>
                 <Component {...pageProps} />
