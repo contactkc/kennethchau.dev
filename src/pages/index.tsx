@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                         <p>fountain valley, ca</p>
                     </div>
                     <div className="flex gap-2">
-                        <Social icon={Mail} href="mailto:kenneth_chau@outlook.com" />
+                        <Social icon={Mail} href="mailto:me@kennethchau.dev" />
                         <Social icon={Github} href="https://github.com/contactkc" />
                         <Social icon={Linkedin} href="https://www.linkedin.com/in/contactkc/" />
                     </div>
