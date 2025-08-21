@@ -37,13 +37,13 @@ const Home: NextPage = () => {
     const projectData = [
         {
             title: "broncosearch",
-            href: "https://github.com/contactkc/broncosearch",
+            href: "https://broncosearch.kennethchau.dev/",
             description: "semantic search engine for cpp courses",
             tags: ["nextjs", "typescript", "tailwindcss", "pinecone", "python", "selenium"]
         },
         {
             title: "kennethchau.dev",
-            href: "https://github.com/contactkc/kennethchau.dev",
+            href: "https://kennethchau.dev/",
             description: "personal cv site for me to show all my work",
             tags: ["nextjs", "typescript", "tailwindcss"]
         },
