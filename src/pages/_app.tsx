@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     return (
         <ThemeProvider attribute="class">
             <Head>
-                <title>Kenneth Chau</title>
+                <title>kenneth chau</title>
                 <link
                     href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
                     rel="stylesheet">
