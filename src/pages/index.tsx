@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             title: "broncosearch",
             href: "https://github.com/contactkc/broncosearch",
             description: "semantic search engine for cpp courses",
-            tags: ["nextjs", "typescript", "tailwindcss", "python", "selenium"]
+            tags: ["nextjs", "typescript", "tailwindcss", "pinecone", "python", "selenium"]
         },
         {
             title: "kennethchau.dev",
