@@ -9,6 +9,18 @@ import SkillTag from '@/components/SkillTag';
 const Home: NextPage = () => {
     const experienceData = [
         {
+            title: "fullstack developer",
+            company: "infinity",
+            duration: "august 2025 - present",
+            description: [
+                "Built a full-stack social web app in a 4-person team to help people discover activities near them.",
+                "Developed RESTful APIs in Next.js for event lifecycle, supporting pagination and geospatial queries.",
+                "Designed MongoDB schemas using Mongoose for data validation, geo-searching, and role-based access.",
+                "Created responsive user profile UIs with Next.js, Tailwind CSS, and stateful React forms.",
+                "Engineered an RSVP system with API-driven capacity enforcement and host-only administrative controls."
+            ]
+        },
+        {
             title: "roblox developer",
             company: "ctstudio",
             duration: "february 2023 - june 2025",
@@ -46,6 +58,12 @@ const Home: NextPage = () => {
             href: "https://kennethchau.dev/",
             description: "personal cv site for me to show all my work",
             tags: ["nextjs", "typescript", "tailwindcss"]
+        },
+        {
+            title: "resumate",
+            href: "https://github.com/contactkc/resumate",
+            description: "ai powered resume analyzer",
+            tags: ["nextjs", "typescript", "tailwindcss", "gemini api", "prompt engineering"]
         },
         {
             title: "rstalk",
@@ -92,7 +110,7 @@ const Home: NextPage = () => {
 
                     <h2 className="text-xl mt-12 mb-2">skills</h2>
                     <div className="flex flex-wrap gap-1">
-                        {["javascript", "typescript", "react", "next.js", "tailwindcss", "node.js", "python", "springboot", "pinecone", "postgresql", "html", "css"].map((skill, index) => (
+                        {["javascript", "typescript", "react", "next.js", "tailwindcss", "node.js", "python", "springboot", "pinecone", "postgresql", "mongodb", "html", "css"].map((skill, index) => (
                             <SkillTag key={index}>{skill}</SkillTag>
                         ))}
                     </div>
