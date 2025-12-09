@@ -13,11 +13,11 @@ const Home: NextPage = () => {
             company: "infinity",
             duration: "august 2025 - present",
             description: [
-                "Built a full-stack social web app in a 4-person team to help people discover activities near them.",
-                "Developed RESTful APIs in Next.js for event lifecycle, supporting pagination and geospatial queries.",
-                "Designed MongoDB schemas using Mongoose for data validation, geo-searching, and role-based access.",
-                "Created responsive user profile UIs with Next.js, Tailwind CSS, and stateful React forms.",
-                "Engineered an RSVP system with API-driven capacity enforcement and host-only administrative controls."
+                "Designed MongoDB/Mongoose schemas and led backend for a real-time hangout planner that reached 133 active users and 5.3K+ event interactions in under 2 months.",
+                "Built JWT + bcrypt auth, guest-to-registered flows (61% conversion), and role-based access control.",
+                "Developed event lifecycle APIs with UUID shareable links, collaborative itineraries, and time re-proposals.",
+                "Implemented WebSocket real-time updates + Nodemailer/SMS reminders.",
+                "Created responsive UIs with React Server Components, Tailwind CSS, and Zod."
             ]
         },
         {
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
 
                     <h2 className="text-xl mt-12 mb-2">skills</h2>
                     <div className="flex flex-wrap gap-1">
-                        {["javascript", "typescript", "react", "next.js", "tailwindcss", "node.js", "python", "springboot", "pinecone", "postgresql", "mongodb", "html", "css"].map((skill, index) => (
+                        {["typescript", "javascript", "react", "next.js", "tailwindcss", "node.js", "rest apis", "mongodb", "mongoose", "springboot", "pinecone", "postgresql", "aws", "docker", "jest", "python", "html", "css"].map((skill, index) => (
                             <SkillTag key={index}>{skill}</SkillTag>
                         ))}
                     </div>
